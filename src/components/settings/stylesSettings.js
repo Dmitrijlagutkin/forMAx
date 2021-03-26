@@ -76,6 +76,27 @@ const useStyles = makeStyles((theme)=>({
     privaceText: {
         marginTop: '10px',
     },
+    buttonconfirm: {
+        marginTop: '20px',
+        display: 'block',
+        margin: '0 auto',
+    },
+    button: {
+        display: 'block',
+        marginTop: theme.spacing(2),
+      },
+      formControl: {
+        margin: theme.spacing(1),
+        minWidth: 350,
+      },
+      selectSeeMyClipPads: {
+          marginTop: '10px',
+      },
+      iconSeeAllClipPads: {
+          marginTop: '20px',
+          color: '#2c79c5',
+      },
+      
 }))
 
 export default useStyles

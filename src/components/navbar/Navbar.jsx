@@ -67,7 +67,9 @@ export default function Navbar({
                     </li>
                 </ul>
             </nav>
-            <Settings isOpenSettings={isOpenSettings} onClickButtonSettingsHandler={onClickButtonSettingsHandler}/>
+            <Settings isOpenSettings={isOpenSettings} 
+                    onClickButtonSettingsHandler={onClickButtonSettingsHandler} 
+                    />
         </>
     )
 }

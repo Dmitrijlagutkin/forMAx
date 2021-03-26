@@ -1,7 +1,8 @@
-import { padsList } from "../../data/padsList"
+import { padsList} from "../../data/padsList"
 import { ADD_COLUMN, ADD_ITEM, CHANGE_COLUMN_NAME } from "../types"
 
 const defaultState = padsList
+    
 
 export default function dataReducer(state = defaultState, action) {
     

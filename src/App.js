@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import SearchPage from "./components/search/SearchPage"
 import ClipBoardContainer from "./components/clipBoard/ClipBoardContainer"
 import "./app.css"
+import Settings from "./components/settings/Settings"
 
 function App() {
   return (
